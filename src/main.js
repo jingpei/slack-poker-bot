@@ -4,7 +4,7 @@ var http = require('http');
 try {
   var fs = require('fs');
   var pathToken = process.env.SLACK_POKER_BOT_TOKEN;
-  var token = "xoxb-10084542003-lamAQa5at6GQD4paJCiyccSH" || fs.readFileSync('token.txt', 'utf8').trim();
+  var token = "xoxb-10084542003-AYSBrinUV33DG78DbBpbTxuT" || fs.readFileSync('token.txt', 'utf8').trim();
 } catch (error) {
   console.log("Your API token should be placed in a 'token.txt' file, which is missing.");
   return;
